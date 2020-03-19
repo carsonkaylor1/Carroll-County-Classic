@@ -1,0 +1,12 @@
+.team-block{
+    margin: 50px 50px;
+}
+
+.team-name{
+    font-size: 32px;
+    font-weight: 500;
+    border-bottom: 2px solid white;
+    text-align: left;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}

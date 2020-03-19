@@ -1,0 +1,25 @@
+.teams-body{
+    background: rgb(0, 0, 0, .8);
+
+}
+
+.teams-body h1{
+    text-align: center;
+    text-decoration: underline;
+    /* font-family: 'Permanent Marker', cursive; */
+    font-family: 'Cinzel', serif;
+    color: 	goldenrod;
+    padding-top: 25px;
+    margin-top: 10px;
+    font-size: 72px;
+}
+
+.teams-body-inner{
+    font-family: 'Cormorant Garamond', serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: white;
+    margin: 0 auto;
+    width: 60%;
+}

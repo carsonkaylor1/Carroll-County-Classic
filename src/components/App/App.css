@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background-image: url("https://i.imgur.com/dTJIOfy.jpg");
+}
+
+.mdl-layout__header-row .mdl-navigation__link{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.mdl-layout__header-row .mdl-navigation__link:hover{
+  color: goldenrod;
+}
+
+.mdl-layout__inner-container {
+  overflow-y: hidden;
+}
+
+
