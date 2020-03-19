@@ -40,7 +40,7 @@
 body{
   background-image: url("https://i.imgur.com/dTJIOfy.jpg");
   overflow: auto;
-  height: 1000px;
+  height: 100vh;
 }
 
 .mdl-layout__header-row .mdl-navigation__link{

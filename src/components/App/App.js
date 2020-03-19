@@ -11,7 +11,7 @@ class App extends React.Component{
   render(){
     return(
     <Router>
-    <div style={{height: '1000px', overflow: 'auto', position: 'relative'}}>
+    <div style={{height: '100%', overflow: 'auto', position: 'relative'}}>
     <Layout fixedHeader>
       <Header transparent title=' ' id='header-bar' scroll>
         <Navigation>
