@@ -82,7 +82,7 @@ class Teams extends React.Component{
             <div className='teams-body-inner'>
                 {
                     this.state.teamNames.map(teamName => {
-                        return <TeamName team={teamName}/>
+                        return <TeamName  key={teamName} team={teamName}/>
                     })
                 }
                 

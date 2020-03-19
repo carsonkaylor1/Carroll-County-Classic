@@ -42,10 +42,10 @@ class TeamName extends React.Component{
 
     render(){
         return(
-            <div class="team-block">
-                <p class='team-name'>{this.props.team}</p>
+            <div className="team-block">
+                <p className='team-name'>{this.props.team}</p>
                 {this.state.playerNames.map(playerName => {
-                    return <TeammateName team={this.props.team} player={playerName}/>
+                    return <TeammateName  key={playerName} team={this.props.team} player={playerName}/>
                 })}
             </div>
 

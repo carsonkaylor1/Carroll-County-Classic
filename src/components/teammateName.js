@@ -47,7 +47,7 @@ class TeammateName extends React.Component{
 
     render(){
         return(
-            <div class='player-name-block'>
+            <div className='player-name-block'>
                {this.showPlayerName()}
             </div>
         )
