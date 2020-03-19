@@ -39,7 +39,8 @@
 
 body{
   background-image: url("https://i.imgur.com/dTJIOfy.jpg");
-  overflow: auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
   height: 1000px;
 }
 
@@ -55,6 +56,7 @@ body{
 
 .mdl-layout__inner-container {
   overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 

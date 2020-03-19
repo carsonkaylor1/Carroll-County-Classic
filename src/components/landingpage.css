@@ -24,15 +24,12 @@
     font-size: 24px;
 }
 
-#landing-header-main{
-    font-family: 'Cinzel', serif;
-    font-size: 24px;
-    
-}
 
 #player-grid{
     background: rgb(255, 255, 255, 0.9);
     padding: 30px 50px;
+    font-family: 'Cinzel', serif;
+    font-size: 24px;    
 }
 
 #team-name{

@@ -56,7 +56,6 @@ class LandingPage extends React.Component{
     render(){
         return(
             <div>
-                <div id='landing-header-main'>
 
                     <Grid id="site-title">
                         {/* <Cell col={4}></Cell> */}
@@ -86,7 +85,6 @@ class LandingPage extends React.Component{
                             <Cell col={6}></Cell>
                         </Grid>
                     </div> 
-                </div>
                 <p id="thanks-message">Thanks!</p>
             </div>
 
