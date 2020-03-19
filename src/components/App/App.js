@@ -12,8 +12,8 @@ class App extends React.Component{
     return(
     <Router>
     <div style={{height: '100%', overflow: 'auto', position: 'relative'}}>
-    <Layout fixedHeader>
-      <Header transparent title=' ' id='header-bar' scroll>
+    <Layout>
+      <Header transparent scroll title=' ' id='header-bar'>
         <Navigation>
                 <Link to="/">Team Sign-Up</Link>
                 <Link to="/teams">Current Teams</Link>               
