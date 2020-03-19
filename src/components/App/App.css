@@ -39,6 +39,7 @@
 
 body{
   background-image: url("https://i.imgur.com/dTJIOfy.jpg");
+  overflow: auto;
 }
 
 .mdl-layout__header-row .mdl-navigation__link{

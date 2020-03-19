@@ -16,7 +16,7 @@ class App extends React.Component{
       <Header transparent title=' ' id='header-bar' scroll>
         <Navigation>
                 <Link to="/">Team Sign-Up</Link>
-                <Link to="/teams">Current Teams</Link>               
+                <Link to="/teams">Teams</Link>               
           </Navigation>
         </Header>
         <Content>
