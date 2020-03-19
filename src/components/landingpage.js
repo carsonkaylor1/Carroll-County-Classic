@@ -1,6 +1,6 @@
 import React from 'react';
 import { Cell, Grid, Button, Link, Navigation } from 'react-mdl';
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, BrowserRouter } from "react-router-dom";
 import './landingpage.css';
 import Player from './player';
 import * as firebase from 'firebase';
@@ -58,8 +58,9 @@ class LandingPage extends React.Component{
     render(){
         return(
             <div>
+                
             <div id='landing-header-main'>
-                    
+            
                     <Grid id="site-title">
                         {/* <Cell col={4}></Cell> */}
                         <Cell col={12}>
@@ -71,6 +72,7 @@ class LandingPage extends React.Component{
                         {/* <Cell col={2}></Cell> */}
                     </Grid>
                     <div>
+                    <BrowserRouter>
                         <Grid>
                             <Cell col={6} id='player-grid'>
                             <div id="team-name" >
@@ -82,20 +84,23 @@ class LandingPage extends React.Component{
                             <Player name="player4" label="Player 4" onTermChange={this.handleTermChange}/>
                             <Player name="player5" label="Player 5" extraLabel="(Optional)" onTermChange={this.handleTermChange}/>
                             <div className='button-block'>
-                                <Router>
+                                
                                 <Button primary id="submitButton" className="mdl-color--indigo" onClick={this.writeUserData} raised colored>Sign Up</Button>
                                 
                                 <a href='/teams'>
                                
                                 <Button primary id="viewTeamsButton" className="mdl-color--indigo" raised colored>View Teams</Button>
                                 </a>
-                                </Router>
+                                
                             </div> 
                             </Cell>
                             <Cell col={6}></Cell>
                         </Grid>
+                        </BrowserRouter>
+                        
                     </div> 
-                    </div>
+                    
+                </div>
                 <p id="thanks-message">Thanks!</p>
                 <div>
                 <div className='button-block-thanks'>
