@@ -7,6 +7,11 @@
     color: white;
 }
 
+#view-teams-thanks-button{
+    display: none;
+    margin-top: 50px;
+}
+
 #site-title {
     font-family: 'Cinzel', serif;
     font-size: 64px;
@@ -116,10 +121,22 @@
 
 
 
-
+#viewTeamsButton{
+    margin-left: 50px;
+}
 
 
 .button-block{
+    text-align: center;
+}
+
+a{
+    color: transparent
+}
+
+.button-block-thanks{
+    display: flex;
+    justify-content: space-evenly;
     text-align: center;
 }
 

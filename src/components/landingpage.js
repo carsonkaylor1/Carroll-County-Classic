@@ -26,6 +26,7 @@ class LandingPage extends React.Component{
     clearPage(){
         document.getElementById("landing-header-main").style.display = 'none';
         document.getElementById("thanks-message").style.display = 'block';
+        document.getElementById("view-teams-thanks-button").style.display = 'block';
     }
 
     handleTermChange(event){
@@ -81,6 +82,9 @@ class LandingPage extends React.Component{
                             <Player name="player5" label="Player 5" extraLabel="(Optional)" onTermChange={this.handleTermChange}/>
                             <div className='button-block'>
                                 <Button primary id="submitButton" className="mdl-color--indigo" onClick={this.writeUserData} raised colored>Sign Up</Button>
+                                <a href='/teams'>
+                                <Button primary id="viewTeamsButton" className="mdl-color--indigo" raised colored>View Teams</Button>
+                                </a>
                             </div> 
                             </Cell>
                             <Cell col={6}></Cell>
@@ -88,6 +92,13 @@ class LandingPage extends React.Component{
                     </div> 
                     </div>
                 <p id="thanks-message">Thanks!</p>
+                <div>
+                <div className='button-block-thanks'>
+                    <a href='/teams'>
+                        <Button primary id="view-teams-thanks-button" raised colored>View Teams</Button>
+                    </a>
+                </div>
+                </div>
             </div>
 
         )

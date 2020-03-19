@@ -1,4 +1,5 @@
 import React from 'react';
+import {Button } from 'react-mdl';
 import './teams.css';
 import TeamName from './teamName'
 import * as firebase from 'firebase';
@@ -79,6 +80,7 @@ class Teams extends React.Component{
         return(
             <div className='teams-body'>
                     <h1>Teams</h1>
+                    
             <div className='teams-body-inner'>
                 {
                     this.state.teamNames.map(teamName => {
@@ -86,7 +88,11 @@ class Teams extends React.Component{
                     })
                 }
                 
+               
             </div>
+            <div className='back-to-sign-up'>
+                <a href='/'>Back to Sign-up</a>
+                </div>
             </div>
         )
     }
