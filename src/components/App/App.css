@@ -50,6 +50,14 @@ body{
   margin-top: 10px;
 }
 
+@media only screen and (max-width: 600px){
+  .mdl-layout__header-row .mdl-navigation__link{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 18px;
+  margin-top: 5px;
+  }
+}
+
 .mdl-layout__header-row .mdl-navigation__link:hover{
   color: goldenrod;
 }
