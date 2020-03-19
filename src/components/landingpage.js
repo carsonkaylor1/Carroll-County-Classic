@@ -1,6 +1,6 @@
 import React from 'react';
-import { Cell, Grid, Button, Link, Navigation } from 'react-mdl';
-import { BrowserRouter as Router, BrowserRouter } from "react-router-dom";
+import { Cell, Grid, Button, Navigation } from 'react-mdl';
+import { BrowserRouter as Router, BrowserRouter, Link } from "react-router-dom";
 import './landingpage.css';
 import Player from './player';
 import * as firebase from 'firebase';
@@ -69,12 +69,14 @@ class LandingPage extends React.Component{
                                 <p>Summer 2020</p>
                             </div>
                         </Cell>
+                        
                         {/* <Cell col={2}></Cell> */}
                     </Grid>
-                    <div>
-                    <Router>
+                    
+                    
                         <Grid>
                             <Cell col={6} id='player-grid'>
+                            
                             <div id="team-name" >
                                 <Player name="teamName" label="Team" onTermChange={this.handleTermChange}/>
                             </div>
@@ -87,18 +89,15 @@ class LandingPage extends React.Component{
                                 
                                 <Button primary id="submitButton" className="mdl-color--indigo" onClick={this.writeUserData} raised colored>Sign Up</Button>
                                 
-                                <a href='/teams'>
-                               
-                                <Button primary id="viewTeamsButton" className="mdl-color--indigo" raised colored>View Teams</Button>
-                                </a>
+                                <Link to="/teams">contacting</Link>
                                 
                             </div> 
                             </Cell>
+                            
                             <Cell col={6}></Cell>
                         </Grid>
-                        </Router>
                         
-                    </div> 
+                        
                     
                 </div>
                 <p id="thanks-message">Thanks!</p>

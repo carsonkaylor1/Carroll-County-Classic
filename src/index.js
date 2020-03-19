@@ -6,6 +6,7 @@ import 'react-mdl/extra/material.css';
 import 'react-mdl/extra/material.js';
 import * as serviceWorker from './serviceWorker';
 import * as firebase from 'firebase';
+import { BrowserRouter } from 'react-router-dom';
 
 //tells server to load anything that's in a file called .env into an environment variable
 require('dotenv').config();
@@ -24,7 +25,7 @@ firebase.initializeApp(config);
 
 
 ReactDOM.render(
-      <App />, document.getElementById('root'),
+      <BrowserRouter><App /></BrowserRouter>, document.getElementById('root'),
   );
   
 
