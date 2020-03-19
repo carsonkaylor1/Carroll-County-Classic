@@ -89,7 +89,9 @@ class LandingPage extends React.Component{
                                 
                                 <Button primary id="submitButton" className="mdl-color--indigo" onClick={this.writeUserData} raised colored>Sign Up</Button>
                                 
-                                <Link to="/teams">contacting</Link>
+                                <Link to="/teams">
+                                    <Button>Teams</Button>
+                                </Link>
                                 
                             </div> 
                             </Cell>
