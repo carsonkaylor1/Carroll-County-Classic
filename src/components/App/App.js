@@ -11,12 +11,12 @@ class App extends React.Component{
   render(){
     return(
     <Router>
-    <div style={{height: '100vh', position: 'relative'}}>
+    <div style={{height: '110vh', position: 'relative'}}>
     <Layout fixedHeader>
       <Header transparent title=' ' id='header-bar' scroll>
         <Navigation>
                 <Link to="/">Team Sign-Up</Link>
-                <Link to="/teams">Teams</Link>               
+                <Link to="/teams">Current Teams</Link>               
           </Navigation>
         </Header>
         <Content>
