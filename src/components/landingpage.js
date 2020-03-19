@@ -79,6 +79,9 @@ class LandingPage extends React.Component{
                             
                             <div id="team-name" >
                                 <Player name="teamName" label="Team" onTermChange={this.handleTermChange}/>
+                                <Link to="/teams" style={{color: 'blue'}}>
+                                    <Button style={{color: 'blue'}} id="view-teams-button">View Teams</Button>
+                                </Link>
                             </div>
                             <Player name="player1" label="Player 1" onTermChange={this.handleTermChange}/>
                             <Player name="player2" label="Player 2" onTermChange={this.handleTermChange}/>
@@ -89,9 +92,7 @@ class LandingPage extends React.Component{
                                 
                                 <Button primary id="submitButton" className="mdl-color--indigo" onClick={this.writeUserData} raised colored>Sign Up</Button>
                                 
-                                <Link to="/teams" style={{color: 'blue'}}>
-                                    <Button style={{color: 'blue'}} id="view-teams-button">Teams</Button>
-                                </Link>
+                                
                                 
                             </div> 
                             </Cell>
@@ -106,7 +107,7 @@ class LandingPage extends React.Component{
                 <div>
                 <div className='button-block-thanks'>
                 <Link to="/teams">
-                    <Button id="view-teams-thanks-button">Teams</Button>
+                    <Button id="view-teams-thanks-button">View Teams</Button>
                 </Link>
                 </div>
                 </div>

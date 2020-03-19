@@ -92,8 +92,8 @@ class Teams extends React.Component{
                
             </div>
             <div className='back-to-sign-up'>
-            <Link to="/" style={{color: 'blue'}}>
-                <Button style={{color: 'blue'}}>Back to Sign-up</Button>
+            <Link to="/" style={{color: 'white'}}>
+                <Button style={{color: 'white'}}>Back to Sign-up</Button>
             </Link>
                 </div>
             </div>
