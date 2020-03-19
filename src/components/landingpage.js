@@ -89,8 +89,8 @@ class LandingPage extends React.Component{
                                 
                                 <Button primary id="submitButton" className="mdl-color--indigo" onClick={this.writeUserData} raised colored>Sign Up</Button>
                                 
-                                <Link to="/teams">
-                                    <Button>Teams</Button>
+                                <Link to="/teams" style={{color: 'blue'}}>
+                                    <Button style={{color: 'blue'}} id="view-teams-button">Teams</Button>
                                 </Link>
                                 
                             </div> 
@@ -105,9 +105,9 @@ class LandingPage extends React.Component{
                 <p id="thanks-message">Thanks!</p>
                 <div>
                 <div className='button-block-thanks'>
-                    <a href='/teams'>
-                        <Button primary id="view-teams-thanks-button" raised colored>View Teams</Button>
-                    </a>
+                <Link to="/teams">
+                    <Button id="view-teams-thanks-button">Teams</Button>
+                </Link>
                 </div>
                 </div>
             </div>

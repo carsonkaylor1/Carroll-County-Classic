@@ -7,9 +7,16 @@
     color: white;
 }
 
+a{
+    color: transparent
+}
+
 #view-teams-thanks-button{
     display: none;
     margin-top: 50px;
+    color: blue;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 #site-title {
@@ -121,8 +128,13 @@
 
 
 
-#viewTeamsButton{
-    margin-left: 50px;
+#view-teams-button{
+    margin-left: 10%;
+    color: blue;
+    font-size: 16px;
+    font-weight: 500;
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: black;
 }
 
 
@@ -130,9 +142,7 @@
     text-align: center;
 }
 
-a{
-    color: transparent
-}
+
 
 .button-block-thanks{
     display: flex;

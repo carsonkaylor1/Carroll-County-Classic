@@ -3,6 +3,7 @@ import {Button } from 'react-mdl';
 import './teams.css';
 import TeamName from './teamName'
 import * as firebase from 'firebase';
+import { BrowserRouter as Router, BrowserRouter, Link } from "react-router-dom";
 
 
 class Teams extends React.Component{
@@ -91,7 +92,9 @@ class Teams extends React.Component{
                
             </div>
             <div className='back-to-sign-up'>
-                <a href='/'>Back to Sign-up</a>
+            <Link to="/" style={{color: 'blue'}}>
+                <Button style={{color: 'blue'}}>Back to Sign-up</Button>
+            </Link>
                 </div>
             </div>
         )
