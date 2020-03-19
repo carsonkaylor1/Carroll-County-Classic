@@ -63,6 +63,7 @@ class LandingPage extends React.Component{
                         <Cell col={12}>
                             <div className="site-title-block">
                                 The Carroll County Classic
+                                <p>Summer 2020</p>
                             </div>
                         </Cell>
                         {/* <Cell col={2}></Cell> */}

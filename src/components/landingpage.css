@@ -20,6 +20,11 @@
     text-align: center;
 }
 
+.site-title-block p{
+    margin-top: 10px;
+    font-size: 24px;
+}
+
 #landing-header-main{
     font-family: 'Cinzel', serif;
     font-size: 24px;
