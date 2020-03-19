@@ -1,5 +1,7 @@
 .teams-body{
     background: rgb(0, 0, 0, .8);
+    overflow: auto;
+    height: 100%;
 }
 
 .teams-body h1{
