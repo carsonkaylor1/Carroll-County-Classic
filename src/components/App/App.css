@@ -7,6 +7,10 @@
   pointer-events: none;
 }
 
+#header-bar{
+  display: none;
+}
+
 @media only screen and (max-width: 600px){
 #header-bar{
   display: none;
