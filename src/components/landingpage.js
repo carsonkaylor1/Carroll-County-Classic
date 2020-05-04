@@ -16,7 +16,8 @@ class LandingPage extends React.Component{
             player2: '',
             player3: '',
             player4: '',
-            player5: ''
+            player5: '',
+            player6: ''
         };
         this.handleTermChange = this.handleTermChange.bind(this);
         this.writeUserData = this.writeUserData.bind(this);
@@ -44,7 +45,8 @@ class LandingPage extends React.Component{
           player2: this.state.player2,
           player3: this.state.player3,
           player4: this.state.player4,
-          player5: this.state.player5
+          player5: this.state.player5,
+          player6: this.state.player6
         });
         this.clearPage();
     }
@@ -87,7 +89,8 @@ class LandingPage extends React.Component{
                             <Player name="player2" label="Player 2" onTermChange={this.handleTermChange}/>
                             <Player name="player3" label="Player 3" onTermChange={this.handleTermChange}/>
                             <Player name="player4" label="Player 4" onTermChange={this.handleTermChange}/>
-                            <Player name="player5" label="Player 5" extraLabel="(Optional)" onTermChange={this.handleTermChange}/>
+                            <Player name="player5" label="Player 5" onTermChange={this.handleTermChange}/>
+                            <Player name="player6" label="Player 6" extraLabel="(Optional)" onTermChange={this.handleTermChange}/>
                             <div className='button-block'>
                                 
                                 <Button primary id="submitButton" className="mdl-color--indigo" onClick={this.writeUserData} raised colored>Sign Up</Button>
