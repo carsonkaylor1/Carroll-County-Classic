@@ -59,7 +59,7 @@ class LandingPage extends React.Component{
 
     render(){
         return(
-            <div>
+            <div id='main-landing-page-body'>
                 
             <div id='landing-header-main'>
             
