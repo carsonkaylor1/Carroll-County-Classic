@@ -1,10 +1,13 @@
 #info-body{
-    background: rgb(255, 255, 255, .8);
+    background: rgb(0, 0, 0, .8);
     font-family: 'Cinzel', serif;
     margin-top: 50px;
+    overflow-y: hidden;
+    height: 100%;
 }
 
 #info-body h1{
+    color: 	goldenrod;
     padding-top: 25px;
     text-align: center;
     font-family: 'Cinzel', serif;
@@ -13,6 +16,7 @@
 
 
 #general-info h4{
+    color: 	white;
     font-family: 'Cinzel', serif;
     padding-top: 50px;
     text-align: center;
@@ -20,12 +24,14 @@
 }
 
 #general-info-list{
+    color: 	white;
     font-family: 'Cinzel', serif;
     text-align: left;
     margin-left: 25%;
 }
 
 #general-info-list ul{
+    color: 	white;
     font-size: 18px;
 }
 
@@ -34,6 +40,7 @@
 }
 
 #rules-body h4{
+    color: 	white;
     font-family: 'Cinzel', serif;
     padding-top: 50px;
     text-align: center;
@@ -41,17 +48,20 @@
 }
 
 #rules-body h6{
+    color: 	white;
     font-family: 'Cinzel', serif;
     text-align: center;
 }
 
 #rules-list{
+    color: 	white;
     font-family: 'Cinzel', serif;
     text-align: left;
     margin-left: 25%;
 }
 
 #rules-list ul{
+    color: 	white;
     font-size: 18px;
 }
 
