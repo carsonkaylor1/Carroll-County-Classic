@@ -1,0 +1,61 @@
+#info-body{
+    background: rgb(255, 255, 255, .8);
+    font-family: 'Cinzel', serif;
+    margin-top: 50px;
+}
+
+#info-body h1{
+    padding-top: 25px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    text-decoration: underline;
+}
+
+
+#general-info h4{
+    font-family: 'Cinzel', serif;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 36px;
+}
+
+#general-info-list{
+    font-family: 'Cinzel', serif;
+    text-align: left;
+    margin-left: 25%;
+}
+
+#general-info-list ul{
+    font-size: 18px;
+}
+
+#rules-body{
+    margin-bottom: 50px;
+}
+
+#rules-body h4{
+    font-family: 'Cinzel', serif;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 36px;
+}
+
+#rules-body h6{
+    font-family: 'Cinzel', serif;
+    text-align: center;
+}
+
+#rules-list{
+    font-family: 'Cinzel', serif;
+    text-align: left;
+    margin-left: 25%;
+}
+
+#rules-list ul{
+    font-size: 18px;
+}
+
+.back-to-sign-up{
+    padding-bottom: 25px;
+}
+

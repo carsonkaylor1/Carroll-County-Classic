@@ -109,6 +109,13 @@ a{
     box-shadow: black;
 }
 
+#view-info-button{
+    font-size: 16px;
+    font-weight: 500;
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: black;
+}
+
 @media only screen and (max-width: 1100px) {
     #player-grid{
         background: rgb(255, 255, 255, 0.9);
@@ -142,15 +149,17 @@ a{
     }
 }
 
-
-
-
-
-.button-block{
+#button-block{
     text-align: center;
 }
 
+#error-block{
+    text-align: center;
+}
 
+#error-block p{
+    color: red;
+}
 
 .button-block-thanks{
     display: flex;

@@ -39,7 +39,7 @@ class LandingPage extends React.Component{
     }
 
     writeUserData() {
-        if(this.state.player1&&this.state.player2&&this.state.player3&&this.state.player4&&this.state.teamName){
+        if(this.state.player1&&this.state.player2&&this.state.player3&&this.state.player4&&this.state.player5&&this.state.teamName){
         firebase.database().ref('teams/' + this.state.teamName).set({
           player1: this.state.player1,
           player2: this.state.player2,
@@ -51,7 +51,7 @@ class LandingPage extends React.Component{
         this.clearPage();
     }
     else{
-        console.log('not enough data')
+        document.getElementById('error-block').style.display = 'block'
     }
       }
 
@@ -84,6 +84,9 @@ class LandingPage extends React.Component{
                                 <Link to="/teams" style={{color: 'blue'}}>
                                     <Button style={{color: 'blue'}} id="view-teams-button">View Teams</Button>
                                 </Link>
+                                <Link to="/info" style={{color: 'blue'}}>
+                                    <Button style={{color: 'blue'}} id="view-info-button">View Info</Button>
+                                </Link>
                             </div>
                             <Player name="player1" label="Player 1" onTermChange={this.handleTermChange}/>
                             <Player name="player2" label="Player 2" onTermChange={this.handleTermChange}/>
@@ -91,13 +94,13 @@ class LandingPage extends React.Component{
                             <Player name="player4" label="Player 4" onTermChange={this.handleTermChange}/>
                             <Player name="player5" label="Player 5" onTermChange={this.handleTermChange}/>
                             <Player name="player6" label="Player 6" extraLabel="(Optional)" onTermChange={this.handleTermChange}/>
-                            <div className='button-block'>
-                                
-                                <Button primary id="submitButton" className="mdl-color--indigo" onClick={this.writeUserData} raised colored>Sign Up</Button>
-                                
-                                
-                                
+                            <div id='error-block' style={{display: 'none'}}>
+                                <p>Not enough info entered</p>
                             </div> 
+                            <div id='button-block'>   
+                                <Button primary id="submitButton" className="mdl-color--indigo" onClick={this.writeUserData} raised colored>Sign Up</Button>                    
+                            </div>
+                            
                             </Cell>
                             
                             <Cell col={6}></Cell>
