@@ -73,7 +73,7 @@ body{
 }
 
 .mdl-layout__inner-container {
-  overflow-y: hidden;
+  overflow-y: scroll;
   overflow-x: hidden;
 }
 
