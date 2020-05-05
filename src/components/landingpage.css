@@ -8,7 +8,7 @@
 }
 
 #landing-header-main{
-    overflow-y: hidden;
+    overflow-y: scroll;
 }
 
 a{
