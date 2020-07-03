@@ -68,7 +68,10 @@ class LandingPage extends React.Component{
                         <Cell col={12}>
                             <div className="site-title-block">
                                 The Carroll County Classic
-                                <p>Summer 2020</p>
+                                <h3>Dedicated to Aiden Krueger</h3>
+                                <p>August 1st 2020</p>
+                                <p>$5 - $20 buy in (your choice)</p>
+                                <p>All proceeds go to the University of Maryland Medical System Children's Hospital</p>
                             </div>
                         </Cell>
                         
