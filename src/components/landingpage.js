@@ -69,7 +69,7 @@ class LandingPage extends React.Component{
                         {/* <Cell col={4}></Cell> */}
                         <Cell col={12}>
                             <div className="site-title-block">
-                                The Carroll County Classic
+                                The Carroll County Classic II
                                 <h3>Dedicated to Aiden Krueger</h3>
                                 <p>August 1st 2020</p>
                                 <p>$10 minimum buy in</p>
