@@ -17,7 +17,8 @@ class LandingPage extends React.Component{
             player3: '',
             player4: '',
             player5: '',
-            player6: ''
+            player6: '',
+            player7: ''
         };
         this.handleTermChange = this.handleTermChange.bind(this);
         this.writeUserData = this.writeUserData.bind(this);
@@ -46,7 +47,8 @@ class LandingPage extends React.Component{
           player3: this.state.player3,
           player4: this.state.player4,
           player5: this.state.player5,
-          player6: this.state.player6
+          player6: this.state.player6,
+          player7: this.state.player7
         });
         this.clearPage();
     }
@@ -97,6 +99,7 @@ class LandingPage extends React.Component{
                             <Player name="player4" label="Player 4" onTermChange={this.handleTermChange}/>
                             <Player name="player5" label="Player 5" onTermChange={this.handleTermChange}/>
                             <Player name="player6" label="Player 6" extraLabel="(Optional)" onTermChange={this.handleTermChange}/>
+                            <Player name="player7" label="Player 7" extraLabel="(Optional)" onTermChange={this.handleTermChange}/>
                             <div id='error-block' style={{display: 'none'}}>
                                 <p>Not enough info entered</p>
                             </div> 
