@@ -28,7 +28,7 @@ class Info extends React.Component{
                     <div id='rules-list'>
                     <ul>
                         <li>Games will be 5v5 (One of these players will be goalie)</li>
-                        <li>Teams can have 6 players (one sub)</li>
+                        <li>Teams can have up to 7 players</li>
                         <li>10 minute games with 5 minute sudden death OT. At the end of OT if score is still tied, winner will be determined by PKs</li>
                     </ul>
                     </div>
