@@ -70,7 +70,7 @@ class LandingPage extends React.Component{
                                 The Carroll County Classic
                                 <h3>Dedicated to Aiden Krueger</h3>
                                 <p>August 1st 2020</p>
-                                <p>$5 - $20 buy in (your choice)</p>
+                                <p>$10 minimum buy in</p>
                                 <p>All proceeds go to the University of Maryland Medical System Children's Hospital</p>
                             </div>
                         </Cell>
