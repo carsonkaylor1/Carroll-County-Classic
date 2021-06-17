@@ -68,8 +68,8 @@ body{
   margin-top: 5px;
   }
   body{
-    overflow-y: visible;
-    overflow-x: visible;
+    overflow-y: auto;
+    overflow-x: auto;
   }
 }
 

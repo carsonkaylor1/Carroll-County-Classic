@@ -28,6 +28,11 @@ a{
     
 }
 
+#player-grid-main{
+    overflow-y: auto;
+    
+}
+
 /* #site-header{
     font-size: 64px
 } */
