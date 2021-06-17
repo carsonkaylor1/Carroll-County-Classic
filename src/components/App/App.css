@@ -71,10 +71,6 @@ body{
     overflow-y: auto;
     overflow-x: auto;
   }
-  #player-grid{
-    overflow-y: hidden;
-    overflow-x: hidden;
-  }
 }
 
 .mdl-layout__header-row .mdl-navigation__link:hover{
