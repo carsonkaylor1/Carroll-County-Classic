@@ -7,7 +7,7 @@ class Player extends React.Component{
         return(
             <Grid className='player-grid'>
                     <Cell col={4}>
-                        {this.props.label} Name {this.props.extraLabel}:
+                        {this.props.label} Name{this.props.extraLabel}:
                     </Cell>
                     <Cell col={4}>
                         <Textfield

@@ -18,7 +18,10 @@ class LandingPage extends React.Component{
             player4: '',
             player5: '',
             player6: '',
-            player7: ''
+            player7: '',
+            player8: '',
+            player9: '',
+            player10: ''
         };
         this.handleTermChange = this.handleTermChange.bind(this);
         this.writeUserData = this.writeUserData.bind(this);
@@ -48,7 +51,10 @@ class LandingPage extends React.Component{
           player4: this.state.player4,
           player5: this.state.player5,
           player6: this.state.player6,
-          player7: this.state.player7
+          player7: this.state.player7,
+          player8: this.state.player8,
+          player9: this.state.player9,
+          player10: this.state.player10
         });
         this.clearPage();
     }
@@ -69,10 +75,10 @@ class LandingPage extends React.Component{
                         {/* <Cell col={4}></Cell> */}
                         <Cell col={12}>
                             <div className="site-title-block">
-                                The Carroll County Classic II
+                                The Carroll County Classic III
                                 <h3>Dedicated to Aiden Krueger</h3>
-                                <p>August 1st 2020</p>
-                                <p>$10 minimum buy in</p>
+                                <p>August 14th 2021</p>
+                                <p>$30 minimum buy in (per person)</p>
                                 <p>All proceeds go to the University of Maryland Medical System Children's Hospital</p>
                             </div>
                         </Cell>
@@ -98,8 +104,11 @@ class LandingPage extends React.Component{
                             <Player name="player3" label="Player 3" onTermChange={this.handleTermChange}/>
                             <Player name="player4" label="Player 4" onTermChange={this.handleTermChange}/>
                             <Player name="player5" label="Player 5" onTermChange={this.handleTermChange}/>
-                            <Player name="player6" label="Player 6" extraLabel="(Optional)" onTermChange={this.handleTermChange}/>
-                            <Player name="player7" label="Player 7" extraLabel="(Optional)" onTermChange={this.handleTermChange}/>
+                            <Player name="player6" label="Player 6" onTermChange={this.handleTermChange}/>
+                            <Player name="player7" label="Player 7" onTermChange={this.handleTermChange}/>
+                            <Player name="player8" label="Player 8" extraLabel=" (Optional)" onTermChange={this.handleTermChange}/>
+                            <Player name="player9" label="Player 9" extraLabel=" (Optional)" onTermChange={this.handleTermChange}/>
+                            <Player name="player10" label="Player 10" extraLabel=" (Optional)" onTermChange={this.handleTermChange}/>
                             <div id='error-block' style={{display: 'none'}}>
                                 <p>Not enough info entered</p>
                             </div> 
