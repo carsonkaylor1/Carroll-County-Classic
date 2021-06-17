@@ -22,4 +22,8 @@ code {
   body {
     overflow-y: auto;
   }
+  #root{
+    height: 100vh;
+    overflow-y: auto;
+  }
 }
