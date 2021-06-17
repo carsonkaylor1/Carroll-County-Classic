@@ -87,7 +87,7 @@ class LandingPage extends React.Component{
                     </Grid>
                     
                     
-                        <Grid id='player-grid-main'>
+                        <Grid>
                             <Cell col={6} id='player-grid'>
                             
                             <div id="team-name" >

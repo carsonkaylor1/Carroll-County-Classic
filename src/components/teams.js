@@ -24,13 +24,18 @@ class Teams extends React.Component{
     }
    
     gotData(data){
-        console.log(data);
-        var teams = data.val();
-        var teamKeys = Object.keys(teams);
-        console.log(data.val());
-        this.setState({
-            teamNames: teamKeys
-        })      
+        if(data){
+            var teams = data.val();
+            if(teams){
+                var teamKeys = Object.keys(teams);
+                console.log(data.val());
+                this.setState({
+                teamNames: teamKeys
+                })  
+            }
+            
+        }
+           
     }
 
     errData(err){
@@ -70,7 +75,10 @@ class Teams extends React.Component{
     readUserData(){
         console.log('reading user data');
         var ref = firebase.database().ref('teams');
-        ref.on('value', this.gotData, this.errData);
+        if(ref){
+            ref.on('value', this.gotData, this.errData);
+        }
+        
     }
 
     componentWillMount(){
