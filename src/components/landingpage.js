@@ -43,7 +43,7 @@ class LandingPage extends React.Component{
     }
 
     writeUserData() {
-        if(this.state.player1&&this.state.player2&&this.state.player3&&this.state.player4&&this.state.player5&&this.state.teamName){
+        if(this.state.player1&&this.state.player2&&this.state.player3&&this.state.player4&&this.state.player5&&this.state.player6&&this.state.player7&&this.state.teamName){
         firebase.database().ref('teams/' + this.state.teamName).set({
           player1: this.state.player1,
           player2: this.state.player2,
