@@ -67,6 +67,10 @@ body{
   font-size: 18px;
   margin-top: 5px;
   }
+  body{
+    overflow-y: auto;
+    overflow-x: auto;
+  }
 }
 
 .mdl-layout__header-row .mdl-navigation__link:hover{
