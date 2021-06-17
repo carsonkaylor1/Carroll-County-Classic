@@ -94,9 +94,7 @@ a{
 }
 
 
-/* #player-grid-main{
-    overflow-y: visible;
-} */
+
 
 #player-grid{
     background: rgb(255, 255, 255, 0.9);
@@ -162,6 +160,12 @@ a{
     #view-teams-button{
         font-size: 12px;
     }
+    #player-grid-main{
+    overflow-y: hidden;
+}
+#player-grid-main{
+    overflow-y: hidden;
+}
 }
 
 #button-block{
