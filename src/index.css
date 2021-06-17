@@ -20,6 +20,6 @@ code {
 
 @media only screen and (max-width: 600px) {
   body {
-    overflow-y: visible;
+    overflow-y: auto;
   }
 }
