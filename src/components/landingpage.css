@@ -28,11 +28,6 @@ a{
     
 }
 
-#player-grid-main{
-    overflow-y: auto;
-    
-}
-
 /* #site-header{
     font-size: 64px
 } */
@@ -60,6 +55,10 @@ a{
     }
     .site-title-block h3{
         font-size: 18px;
+    }
+    #player-grid-main{
+        overflow-y: hidden;
+        
     }
 
     }
