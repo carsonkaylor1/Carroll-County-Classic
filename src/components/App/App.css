@@ -78,6 +78,6 @@ body{
 }
 
 .mdl-layout__inner-container {
-  overflow-y: auto;
+  overflow-y: hidden;
   overflow-x: hidden;
 }
