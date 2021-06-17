@@ -100,7 +100,8 @@ a{
     background: rgb(255, 255, 255, 0.9);
     padding: 30px 50px;
     font-family: 'Cinzel', serif;
-    font-size: 24px;    
+    font-size: 24px; 
+    overflow-y: hidden;   
 }
 
 
@@ -178,4 +179,3 @@ a{
     justify-content: space-evenly;
     text-align: center;
 }
-
