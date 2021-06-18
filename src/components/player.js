@@ -10,7 +10,8 @@ class Player extends React.Component{
                         {this.props.label} Name{this.props.extraLabel}:
                     </Cell>
                     <Cell col={4}>
-                        <Textfield
+                        <Textfield 
+                            style={{fontSize: '16px'}}
                             name={this.props.name}
                             onChange={this.props.onTermChange}
                             label={this.props.label}
