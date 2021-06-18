@@ -14,7 +14,6 @@ class Player extends React.Component{
                             name={this.props.name}
                             onChange={this.props.onTermChange}
                             label={this.props.label}
-                            // style={{width: '200px'}}
                         />
                     </Cell>
             </Grid>
