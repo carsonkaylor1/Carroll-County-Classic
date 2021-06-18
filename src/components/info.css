@@ -10,14 +10,24 @@
     padding-top: 25px;
     text-align: center;
     font-family: 'Cinzel', serif;
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    border-bottom: 1px solid goldenrod;
+    padding-bottom: 3px;
 }
 
+#drinking-rule {
+    color: 	white;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    font-size: 18px;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 #general-info h4{
     color: 	white;
     font-family: 'Cinzel', serif;
-    padding-top: 50px;
     text-align: center;
     font-size: 36px;
 }
@@ -83,4 +93,3 @@
         font-size: 12px;
     }
 }
-

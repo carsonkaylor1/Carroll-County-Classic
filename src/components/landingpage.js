@@ -80,6 +80,12 @@ class LandingPage extends React.Component{
                                 <p>August 14th 2021</p>
                                 <p>$30 minimum buy in (per person)</p>
                                 <p>All proceeds go to the University of Maryland Medical System Children's Hospital</p>
+                                <Link to="/info" style={{color: 'blue'}}>
+                                    <Button style={{color: 'white'}} className="mdl-color--indigo" id="view-info-button" raised>View Rules</Button>
+                                </Link>
+                                <Link to="/teams" style={{color: 'blue'}}>
+                                    <Button style={{color: 'white'}} className="mdl-color--indigo" id="view-teams-button" raised>View Teams</Button>
+                                </Link>
                             </div>
                         </Cell>
                         
@@ -92,12 +98,6 @@ class LandingPage extends React.Component{
                             
                             <div id="team-name" >
                                 <Player name="teamName" label="Team" onTermChange={this.handleTermChange}/>
-                                <Link to="/teams" style={{color: 'blue'}}>
-                                    <Button style={{color: 'blue'}} id="view-teams-button">View Teams</Button>
-                                </Link>
-                                <Link to="/info" style={{color: 'blue'}}>
-                                    <Button style={{color: 'blue'}} id="view-info-button">View Info</Button>
-                                </Link>
                             </div>
                             <Player name="player1" label="Player 1" onTermChange={this.handleTermChange}/>
                             <Player name="player2" label="Player 2" onTermChange={this.handleTermChange}/>

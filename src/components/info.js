@@ -11,7 +11,7 @@ class Info extends React.Component{
     render(){
         return(
             <div id='info-body'>
-                <h1>CC Classic Info</h1>
+                <h1>Official Rules</h1>
                 <div id='general-info'>
                     <h4>General Info</h4>
                     <div id='general-info-list'>
@@ -30,6 +30,9 @@ class Info extends React.Component{
                         <li>Games will be 7v7 (One of these players will be goalie)</li>
                         <li>Teams can have up to 10 players</li>
                         <li>10 minute games with 5 minute sudden death OT. At the end of OT if score is still tied, winner will be determined by PKs</li>
+                        <li>At least one girl per team</li>
+                        <li>All players must drink or be subject to immediate ejection</li>
+                        <li>Standard FIFA rules apply</li>
                     </ul>
                     </div>
                 </div>
