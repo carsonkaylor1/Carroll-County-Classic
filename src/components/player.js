@@ -11,7 +11,6 @@ class Player extends React.Component{
                     </Cell>
                     <Cell col={4}>
                         <Textfield 
-                            style={{fontSize: '16px'}}
                             name={this.props.name}
                             onChange={this.props.onTermChange}
                             label={this.props.label}
