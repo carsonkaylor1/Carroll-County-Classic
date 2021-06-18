@@ -77,3 +77,10 @@ body{
   overflow-y: auto;
   overflow-x: hidden;
 }
+
+@media (min-width: 840px){
+.mdl-cell {
+    margin: 8px;
+    width: calc(33.3333333333% - 16px);
+}
+}

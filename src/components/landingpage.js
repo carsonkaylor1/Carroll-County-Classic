@@ -89,13 +89,13 @@ class LandingPage extends React.Component{
                             </div>
                         </Cell>
                         
-                        {/* <Cell col={2}></Cell> */}
-                        <Cell col={3}></Cell>
-                        <Cell col={6} id='player-grid'>
+                        {/* <Cell col={3}></Cell> */}
+                        <Cell col={12} id='player-grid'>
                             
                             <div id="team-name" >
                                 <Player name="teamName" label="Team" onTermChange={this.handleTermChange}/>
                             </div>
+                            <div id="player-name">
                             <Player name="player1" label="Player 1" onTermChange={this.handleTermChange}/>
                             <Player name="player2" label="Player 2" onTermChange={this.handleTermChange}/>
                             <Player name="player3" label="Player 3" onTermChange={this.handleTermChange}/>
@@ -106,6 +106,7 @@ class LandingPage extends React.Component{
                             <Player name="player8" label="Player 8" extraLabel=" (Optional)" onTermChange={this.handleTermChange}/>
                             <Player name="player9" label="Player 9" extraLabel=" (Optional)" onTermChange={this.handleTermChange}/>
                             <Player name="player10" label="Player 10" extraLabel=" (Optional)" onTermChange={this.handleTermChange}/>
+                            </div>
                             <div id='error-block' style={{display: 'none'}}>
                                 <p>Not enough info entered</p>
                             </div> 
@@ -114,7 +115,7 @@ class LandingPage extends React.Component{
                             </div>
                             
                             </Cell>
-                            <Cell col={3}></Cell>
+                            {/* <Cell col={3}></Cell> */}
                             
                             
                             {/* <Cell col={6}></Cell> */}

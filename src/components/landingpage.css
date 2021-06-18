@@ -121,7 +121,8 @@ a{
     padding: 30px 50px;
     font-family: 'Cinzel', serif;
     font-size: 24px; 
-    color: black;   
+    color: black;  
+    margin: 0% 25%; 
 }
 
 
@@ -129,6 +130,10 @@ a{
     font-size: 32px;
     border-bottom: rgb(0, 0, 0, .5) 2px solid;
     margin-bottom: 25px;
+    line-height: 32px;
+}
+
+#player-name{
     line-height: 32px;
 }
 
@@ -162,6 +167,13 @@ a{
         font-size: 24px;
         border-bottom: rgb(0, 0, 0, .5) 2px solid;
         margin-bottom: 25px;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    #player-grid{
+        margin: 50px 0;
+        width: 100%;
     }
 }
 
