@@ -15,14 +15,8 @@
     padding-bottom: 3px;
 }
 
-#drinking-rule {
-    color: 	white;
-    font-family: 'Cinzel', serif;
-    text-align: center;
-    font-size: 18px;
-
-    margin-top: 50px;
-    margin-bottom: 50px;
+#important-rule{
+    color: goldenrod;
 }
 
 #general-info h4{

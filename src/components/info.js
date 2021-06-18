@@ -31,7 +31,7 @@ class Info extends React.Component{
                         <li>Teams can have up to 10 players</li>
                         <li>10 minute games with 5 minute sudden death OT. At the end of OT if score is still tied, winner will be determined by PKs</li>
                         <li>At least one girl per team</li>
-                        <li>All players must drink or be subject to immediate ejection</li>
+                        <li id='important-rule'>All players must drink or be subject to immediate ejection</li>
                         <li>Standard FIFA rules apply</li>
                     </ul>
                     </div>
