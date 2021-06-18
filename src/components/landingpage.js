@@ -75,7 +75,7 @@ class LandingPage extends React.Component{
                         {/* <Cell col={4}></Cell> */}
                         <Cell col={12}>
                             <div className="site-title-block">
-                                The Carroll County Classic III
+                                <h1>The Carroll County Classic III</h1>
                                 <h3>Dedicated to Aiden Krueger</h3>
                                 <p>August 14th 2021</p>
                                 <p>$30 minimum buy in (per person)</p>
@@ -90,11 +90,7 @@ class LandingPage extends React.Component{
                         </Cell>
                         
                         {/* <Cell col={2}></Cell> */}
-                    </Grid>
-                    
-                    
-                        <Grid>
-                            <Cell col={6} id='player-grid'>
+                        <Cell col={6} id='player-grid'>
                             
                             <div id="team-name" >
                                 <Player name="teamName" label="Team" onTermChange={this.handleTermChange}/>
@@ -119,7 +115,12 @@ class LandingPage extends React.Component{
                             </Cell>
                             
                             <Cell col={6}></Cell>
-                        </Grid>
+                    </Grid>
+                    
+                    
+                        
+                            
+                        
                         
                         
                     
