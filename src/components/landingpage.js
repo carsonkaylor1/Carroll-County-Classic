@@ -80,10 +80,10 @@ class LandingPage extends React.Component{
                                 <p>August 14th 2021</p>
                                 <p>$30 minimum buy in (per person)</p>
                                 <p>All proceeds go to the University of Maryland Medical System Children's Hospital</p>
-                                <Link to="/info" style={{color: 'blue'}}>
+                                <Link to="/info">
                                     <Button style={{color: 'white'}} className="mdl-color--indigo" id="view-info-button" raised>View Rules</Button>
                                 </Link>
-                                <Link to="/teams" style={{color: 'blue'}}>
+                                <Link to="/teams">
                                     <Button style={{color: 'white'}} className="mdl-color--indigo" id="view-teams-button" raised>View Teams</Button>
                                 </Link>
                             </div>

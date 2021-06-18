@@ -1,8 +1,9 @@
 #info-body{
     background: rgb(0, 0, 0, .8);
     font-family: 'Cinzel', serif;
-    overflow-y: hidden;
+    overflow-y: auto;
     height: 100%;
+    text-align: center;
 }
 
 #info-body h1{
@@ -32,8 +33,9 @@
     color: 	white;
     font-family: 'Cinzel', serif;
     text-align: left;
-    margin-left: 25%;
+
     width: 50%;
+    margin-left: 25%;
 }
 
 #general-info-list ul{
@@ -88,13 +90,13 @@
 @media only screen and (max-width: 600px){
     #general-info-list{
         font-family: 'Cinzel', serif;
-        text-align: left;
         margin-left: 0%;
+        width: 90%;
     }
     #rules-list{
         font-family: 'Cinzel', serif;
-        text-align: left;
         margin-left: 0%;
+        width: 90%;
     }
     #view-info-button{
         font-size: 12px;
