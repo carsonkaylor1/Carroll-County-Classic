@@ -37,6 +37,6 @@ a{
 
 @media only screen and (max-width: 600px){
     .teams-body h1{
-        /* padding-top: 50px; */
+        padding-top: 50px;
     }
 }
