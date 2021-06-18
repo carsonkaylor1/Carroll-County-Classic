@@ -24,6 +24,8 @@
     font-family: 'Cinzel', serif;
     text-align: center;
     font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 25px;
 }
 
 #general-info-list{
@@ -31,11 +33,16 @@
     font-family: 'Cinzel', serif;
     text-align: left;
     margin-left: 25%;
+    width: 50%;
 }
 
 #general-info-list ul{
     color: 	white;
     font-size: 18px;
+}
+
+#general-info-list li{
+    margin: 1em;
 }
 
 #rules-body{
@@ -45,9 +52,10 @@
 #rules-body h4{
     color: 	white;
     font-family: 'Cinzel', serif;
-    padding-top: 50px;
+    margin-top: 50px;
     text-align: center;
     font-size: 36px;
+    margin-bottom: 15px;
 }
 
 #rules-body h6{
@@ -61,11 +69,16 @@
     font-family: 'Cinzel', serif;
     text-align: left;
     margin-left: 25%;
+    width: 50%;
 }
 
 #rules-list ul{
     color: 	white;
     font-size: 18px;
+}
+
+#rules-list li{
+    margin: 1em 0;
 }
 
 .back-to-sign-up{
