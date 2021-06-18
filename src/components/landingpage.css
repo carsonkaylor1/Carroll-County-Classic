@@ -30,6 +30,10 @@ a{
     
 }
 
+#player-grid-div{
+    align-content: center;
+}
+
 /* #site-header{
     font-size: 64px
 } */

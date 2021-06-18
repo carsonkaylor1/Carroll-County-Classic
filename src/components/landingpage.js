@@ -90,6 +90,7 @@ class LandingPage extends React.Component{
                         </Cell>
                         
                         {/* <Cell col={2}></Cell> */}
+                        <Cell col={3}></Cell>
                         <Cell col={6} id='player-grid'>
                             
                             <div id="team-name" >
@@ -113,8 +114,10 @@ class LandingPage extends React.Component{
                             </div>
                             
                             </Cell>
+                            <Cell col={3}></Cell>
                             
-                            <Cell col={6}></Cell>
+                            
+                            {/* <Cell col={6}></Cell> */}
                     </Grid>
                     
                     
