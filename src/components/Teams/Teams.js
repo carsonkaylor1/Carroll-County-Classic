@@ -1,7 +1,7 @@
 import React from 'react';
 import {Button } from 'react-mdl';
-import './teams.css';
-import TeamName from './teamName'
+import './Teams.css';
+import TeamName from '../TeamName/TeamName'
 import * as firebase from 'firebase';
 import { BrowserRouter as Router, BrowserRouter, Link } from "react-router-dom";
 

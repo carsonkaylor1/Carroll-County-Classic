@@ -1,6 +1,6 @@
 import React from 'react';
-import TeammateName from './teammateName';
-import './teamName.css'
+import TeammateName from '../TeammateName/TeammateName';
+import './TeamName.css'
 import * as firebase from 'firebase';
 
 

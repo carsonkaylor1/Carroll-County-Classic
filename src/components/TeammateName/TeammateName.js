@@ -1,5 +1,5 @@
 import React from 'react';
-import './teammateName.css';
+import './TeammateName.css';
 import * as firebase from 'firebase';
 
 class TeammateName extends React.Component{

@@ -1,8 +1,8 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import LandingPage from './landingpage';
-import Teams from './teams';
-import Info from './info'
+import LandingPage from './LandingPage/Landingpage';
+import Teams from './Teams/Teams';
+import Info from './Info/Info'
 
 
 const Main = () => (

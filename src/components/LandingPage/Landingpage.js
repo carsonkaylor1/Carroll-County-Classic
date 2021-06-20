@@ -1,8 +1,8 @@
 import React from 'react';
 import { Cell, Grid, Button, Navigation } from 'react-mdl';
 import { BrowserRouter as Router, BrowserRouter, Link } from "react-router-dom";
-import './landingpage.css';
-import Player from './player';
+import './Landingpage.css';
+import Player from '../Player/Player';
 import * as firebase from 'firebase';
 
 

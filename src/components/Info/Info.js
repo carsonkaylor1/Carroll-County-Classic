@@ -1,5 +1,5 @@
 import React from 'react';
-import './info.css';
+import './Info.css';
 import {Button } from 'react-mdl';
 import { BrowserRouter as Router, BrowserRouter, Link } from "react-router-dom";
 

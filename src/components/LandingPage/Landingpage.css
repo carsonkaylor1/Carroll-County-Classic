@@ -59,7 +59,6 @@
     margin: 25px 25%; 
 }
 
-
 #team-name{
     font-size: 32px;
     border-bottom: rgb(0, 0, 0, .5) 2px solid;
@@ -70,7 +69,6 @@
 #player-name{
     line-height: 32px;
 }
-
 
 #view-teams-button{
     color: white;
@@ -87,8 +85,6 @@
     box-shadow: black;
     margin-right: 25px;
 }
-
-
 
 #button-block{
     text-align: center;
