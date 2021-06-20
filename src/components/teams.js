@@ -87,10 +87,10 @@ class Teams extends React.Component{
     
     render(){
         return(
-            <div className='teams-body'>
+            <div id='teams-body'>
                     <h1>Teams</h1>
                     
-            <div className='teams-body-inner'>
+            <div id='teams-body-inner'>
                 {
                     this.state.teamNames.map(teamName => {
                         return <TeamName  key={teamName} team={teamName}/>

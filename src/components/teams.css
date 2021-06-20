@@ -1,10 +1,10 @@
-.teams-body{
+#teams-body{
     background: rgb(0, 0, 0, .8);
     overflow-y: scroll;
     height: 100vh;
 }
 
-.teams-body h1{
+#teams-body h1{
     text-align: center;
     /* text-decoration: underline; */
     /* font-family: 'Permanent Marker', cursive; */
@@ -17,7 +17,7 @@
     padding-bottom: 3px;
 }
 
-.teams-body-inner{
+#teams-body-inner{
     font-family: 'Cormorant Garamond', serif;
     display: flex;
     flex-wrap: wrap;
@@ -30,10 +30,6 @@
 .back-to-sign-up{
    text-align: center;
    margin-bottom: 75px;
-}
-
-a{
-    color: white;
 }
 
 @media only screen and (max-width: 600px){
