@@ -19,8 +19,6 @@ class Teams extends React.Component{
         this.readUserData = this.readUserData.bind(this);
         this.gotData = this.gotData.bind(this);
         this.errData = this.errData.bind(this);
-        this.displayPlayer = this.displayPlayer.bind(this);
-        this.iterateThroughTeam = this.iterateThroughTeam.bind(this);
     }
    
     gotData(data){
@@ -28,7 +26,6 @@ class Teams extends React.Component{
             var teams = data.val();
             if(teams){
                 var teamKeys = Object.keys(teams);
-                console.log(data.val());
                 this.setState({
                 teamNames: teamKeys
                 })  
@@ -44,36 +41,12 @@ class Teams extends React.Component{
     }
 
     gotPlayerData(data){
-        console.log('player data');
-        console.log(data.val());
         var players = data.val();
         var playerKeys = Object.keys(players)
-        console.log(playerKeys);
-    }
-
-    iterateThroughTeam(){
-        console.log('iterating');
-        for(var i=0; i<this.state.teamNames.length; i++){
-            console.log(this.state.teamNames[i]);
-            var teamNameKey = this.state.teamNames[i];
-            for(var j=0; j<this.state.playerNames.length; j++){
-                var playerNameKey = this.state.playerNames[j];
-                var ref = firebase.database().ref(`teams/${teamNameKey}/${playerNameKey}`)
-                ref.on('value', this.displayPlayer)
-            }
-            // var ref = firebase.database().ref(`teams/${teamNameKey}`)
-            // ref.on('value', this.gotPlayerData)
-            
-         }
-    }
-
-    displayPlayer(data){
-        console.log(data.val())
     }
 
     //Read Data from Firebase
     readUserData(){
-        console.log('reading user data');
         var ref = firebase.database().ref('teams');
         if(ref){
             ref.on('value', this.gotData, this.errData);
