@@ -5,8 +5,11 @@
 .team-name{
     font-size: 32px;
     font-weight: 500;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid goldenrod;
     text-align: center;
     padding-bottom: 5px;
     text-transform: uppercase;
+    line-height: 1em;
+    color: white;
+    margin-bottom: 25px;
 }
