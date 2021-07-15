@@ -79,6 +79,8 @@ class LandingPage extends React.Component{
                                 <p>August 14th 2021</p>
                                 <p>$300 per team</p>
                                 <p>All proceeds go to the University of Maryland Medical System Children's Hospital</p>
+                                <p id="shirt-purchase">If you would like to purchase a shirt, please click <a style={{color: 'royalblue'}} href="https://www.thekht.org/cccsoccer" target="_blank">here</a> </p>
+                                
                                 <Link to="/info">
                                     <Button style={{color: 'white'}} className="mdl-color--indigo" id="view-info-button" raised>View Rules</Button>
                                 </Link>

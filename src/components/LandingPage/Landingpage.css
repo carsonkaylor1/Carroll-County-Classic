@@ -7,6 +7,10 @@
     color: white;
 }
 
+a:link{
+    color: blue;
+}
+
 #view-teams-thanks-button{
     display: none;
     margin-top: 50px;
@@ -96,6 +100,10 @@
 
 #error-block p{
     color: red;
+}
+
+#shirt-purchase{
+    margin-top: 50px;
 }
 
 .button-block-thanks{
