@@ -92,7 +92,7 @@ class LandingPage extends React.Component{
                         
                         {/* <Cell col={3}></Cell> */}
                         <Cell col={12} id='player-grid'>
-                            
+                            <h2>Sign Up</h2>
                             <div id="team-name" >
                                 <Player name="teamName" label="Team" onTermChange={this.handleTermChange}/>
                             </div>
