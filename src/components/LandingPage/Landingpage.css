@@ -159,6 +159,9 @@ a:link{
     #view-teams-button{
         font-size: 12px;
     }
+    #shirt-purchase{
+    margin-bottom: 60px;
+}
 }
 
 @media only screen and (max-width: 840px) {
