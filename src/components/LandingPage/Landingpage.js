@@ -77,7 +77,7 @@ class LandingPage extends React.Component{
                                 <h1>The Carroll County Classic III</h1>
                                 <h3>Dedicated to Aiden Krueger</h3>
                                 <p>August 14th 2021</p>
-                                <p>$30 buy in (per person)</p>
+                                <p>$300 per team</p>
                                 <p>All proceeds go to the University of Maryland Medical System Children's Hospital</p>
                                 <Link to="/info">
                                     <Button style={{color: 'white'}} className="mdl-color--indigo" id="view-info-button" raised>View Rules</Button>
