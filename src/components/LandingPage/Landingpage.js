@@ -74,9 +74,9 @@ class LandingPage extends React.Component{
                         {/* <Cell col={4}></Cell> */}
                         <Cell col={12}>
                             <div className="site-title-block">
-                                <h1>The Carroll County Classic III</h1>
+                                <h1>The Carroll County Classic IV</h1>
                                 <h3>Dedicated to Aiden Krueger</h3>
-                                <p>August 14th 2021</p>
+                                <p>September 10th 2022</p>
                                 <p>$300 per team</p>
                                 <p>All proceeds go to the University of Maryland Medical System Children's Hospital</p>
                                 <p id="shirt-purchase">* If you would like to purchase a shirt, please click <a style={{color: 'blue'}} href="https://www.thekht.org/cccsoccer" target="_blank">here</a> *</p>
