@@ -29,7 +29,7 @@ class Info extends React.Component{
                     <ul>
                         <li>Games will be 7v7 (One of these players will be goalie)</li>
                         <li>Teams can have up to 10 players</li>
-                        <li>10 minute games with 5 minute sudden death OT. At the end of OT if score is still tied, winner will be determined by PKs</li>
+                        <li>20 minute games (10 minute halves) with 5 minute sudden death OT. At the end of OT if score is still tied, winner will be determined by PKs</li>
                         <li>At least one girl per team</li>
                         <li id='important-rule'>All players must drink or be subject to immediate ejection</li>
                         <li>Standard FIFA rules apply</li>
