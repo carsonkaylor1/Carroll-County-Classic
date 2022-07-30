@@ -49,8 +49,11 @@ a:link{
     font-family: 'Cinzel', serif;
 }
 
-
 .site-title-block{
+    text-align: center;
+}
+
+.link-block{
     text-align: center;
 }
 
@@ -174,7 +177,10 @@ a:link{
     }
     #shirt-purchase{
     margin-bottom: 60px;
-}
+    }
+    #kht-logo{
+        margin-top: 0.5em;
+    }
 }
 
 @media only screen and (max-width: 840px) {
